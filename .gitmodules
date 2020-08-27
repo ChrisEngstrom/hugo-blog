@@ -1,3 +1,7 @@
 [submodule "themes/timer-hugo"]
 	path = themes/timer-hugo
 	url = https://github.com/ChrisEngstrom/timer-hugo.git
+[submodule "public"]
+	path = public
+	url = https://github.com/ChrisEngstrom/chrisengstrom.github.io.git
+	branch = master
