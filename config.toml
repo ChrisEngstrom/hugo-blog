@@ -6,10 +6,10 @@ theme = "timer-hugo"
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
 # Navbar Menus
-[[menu.main]]
-name    = "About"
-url     = "about"
-weight  = 2
+# [[menu.main]]
+# name    = "About"
+# url     = "about"
+# weight  = 2
 # [[menu.main]]
 # name    = "Service"
 # url     = "service"
@@ -44,8 +44,8 @@ contactFormAction = "https://formspree.io/mrgywgjb" # contact form works with ht
 [params.banner]
 enable  = true
 bgImage = "images/slider.jpg"
-heading = "HI, MY NAME IS CHRIS & I AM A"
-description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+heading = "Hi, my name is Chris & I am a"
+description = "With over 10 years experience as a Software Developer I have worked on a variety of projects from web sites to embedded systems. This site will be a place for me to showcase some things I've worked on as well as just ramble about whatever is on my mind. Welcome!"
 # button
 btn     = false
 btnText = "Learn More"
@@ -53,7 +53,7 @@ btnURL  = "/about/"
 
 # flip text
 [[params.banner.flipText]]
-title   = "DEVELOPER"
+title   = "Software Developer"
 [[params.banner.flipText]]
 title   = "GAMER"
 [[params.banner.flipText]]
@@ -63,7 +63,7 @@ title   = "FATHER TO BE"
 [params.about]
 enable  = true
 title   = "ABOUT ME"
-content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+content = "Hello, I’m a Software Developer from Oklahoma, USA. I hold a bachelor's degree in Computer Science from Oklahoma Christian University. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
 image   = "images/about/about.jpg"
 
 # Call to Action
@@ -82,8 +82,8 @@ subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque aucto
 
 # social icon
 [[params.socialIcon]]
-icon = "ion-social-twitter"
-url = "https://twitter.com/chris_engstrom"
+icon = "ion-social-github"
+url = "https://github.com/ChrisEngstrom"
 
 [[params.socialIcon]]
 icon = "ion-social-linkedin"
