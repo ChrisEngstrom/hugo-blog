@@ -2,10 +2,10 @@
 title: "The Birds of Northwest Expressway"
 date: 2010-06-22T12:00:00-05:00
 publishdate: 2010-06-22T12:00:00-05:00
-description : "This is meta description"
+description : "So right when we moved in we noticed a couple of barn swallows started to build a nest of mud."
 type: post
 author: Chris Engstrom
-tags: ["life", "birds"]
+tags: ["life", "birds", "old site"]
 ---
 
 So right when we moved in we noticed a couple of barn swallows started to build a nest of mud. Instead of being jerks we figured we would let them build their nest.
