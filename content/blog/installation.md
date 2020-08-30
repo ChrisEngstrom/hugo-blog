@@ -1,6 +1,7 @@
 ---
 title: "How To Setup Timer Hugo"
 date: 2018-07-08T12:22:40+06:00
+draft: true
 type: post
 image: images/blog/post-1.jpg
 author: Themefisher
