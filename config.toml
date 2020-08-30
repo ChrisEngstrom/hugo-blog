@@ -22,10 +22,10 @@ theme = "timer-hugo"
 name    = "Blog"
 url     = "blog"
 weight  = 5
-# [[menu.main]]
-# name    = "Contact"
-# url     = "contact"
-# weight  = 6
+[[menu.main]]
+name    = "Contact"
+url     = "contact"
+weight  = 6
 
 # Site Params
 [params]
@@ -55,16 +55,16 @@ btnURL  = "/about/"
 [[params.banner.flipText]]
 title   = "Software Developer"
 [[params.banner.flipText]]
-title   = "GAMER"
+title   = "Gamer"
 [[params.banner.flipText]]
-title   = "FATHER TO BE"
+title   = "Father to be"
 
 # Homepage About Section
 [params.about]
 enable  = true
-title   = "ABOUT ME"
-content = "Hello, I’m a Software Developer from Oklahoma, USA. I hold a bachelor's degree in Computer Science from Oklahoma Christian University. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
-image   = "images/about/about.jpg"
+title   = "About Me"
+content = "Hello, I’m a Software Developer from Oklahoma, USA. I hold a bachelor's degree in Computer Science from Oklahoma Christian University."
+image   = "images/about/Chris_Engstrom.jpg"
 
 # Call to Action
 [params.cta]
