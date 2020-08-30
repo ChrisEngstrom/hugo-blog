@@ -1,5 +1,5 @@
-enable  : true
-title   : MEET THE TEAM
+enable  : false
+title   : Meet the Team
 members  :
   - name  : Jonathon Andrew
     image : images/team/team-1.jpg
