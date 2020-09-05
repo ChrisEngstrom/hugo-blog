@@ -8,8 +8,6 @@ author: Chris Engstrom
 tags: ["show", "hide", "css", "getElementById", "JavaScript", "PHP", "web development", "WordPress", "T&S Web Design", "old site",]
 ---
 
-### Intro
-
 While I was at work the other day we received an update request from a client. Since I saw it first I assigned it to myself and started to work at it. There were only two things that the client wanted us to change. The first was changing the suite number for a particular address, which took about five seconds to track down and change. The second was that he wanted to post a job on their careers page. Posting the job was easy enough but he also had another thing he wanted done at the same time. He wanted to be able to click the actual position title and have the description appear and disappear accordingly.
 
 It was towards the end of the day by the time I got to this task so I did a little research and fiddling around with some JavaScript but was unsuccessful in my attempts to get it to work right. So, to try to learn how to do that specific task and learn more about JavaScript in general, I am creating this post. Here goes nothing.

@@ -8,103 +8,6 @@ author: Chris Engstrom
 tags: ["HTML", "CSS", "horizontal menu", "web development", "old site",]
 ---
 
-{{< rawhtml >}}
-<style>
-    /* HTML/CSS Horizontal Menu Post */
-    .horizontal-menu {
-        list-style: none;
-        margin: 20px 20px 70px !important;
-        padding: 0;
-        width: 525px
-    }
-    .horizontal-menu li {
-        display: inline;
-        position: relative;
-    }
-    .horizontal-menu li a {
-        text-decoration: none;
-        padding: 5px 0;
-        width: 100px;
-        background: #32522b;
-        color: #eee;
-        float: left;
-        color: #8292A0;
-        font-weight: bold;
-        text-align: center;
-        border-left: 1px solid #121212;
-    }
-    .horizontal-menu li a:hover {
-        background: #92C088;
-        color: #252B30
-    }
-
-    .first_menu_item {
-        border: none !important;
-    }
-
-    .horizontal-menu-1 {
-        list-style: none;
-        margin: 20px;
-        padding: 0;
-        width: 525px
-    }
-
-    .horizontal-menu-2 {
-        list-style: none;
-        margin: 20px;
-        padding: 0;
-        width: 525px
-    }
-    .horizontal-menu-2 li {
-        display: inline;
-    }
-
-    .horizontal-menu-3 {
-        list-style: none;
-        margin: 20px 20px 70px !important;
-        padding: 0;
-        width: 525px
-    }
-    .horizontal-menu-3 li {
-        display: inline
-    }
-    .horizontal-menu-3 li a {
-        text-decoration: none;
-        padding: 5px 0;
-        width: 100px;
-        background: #32522b;
-        color: #eee;
-        float: left;
-        color: #8292A0;
-        font-weight: bold;
-    }
-
-    .horizontal-menu-4 {
-        list-style: none;
-        margin: 20px 20px 70px !important;
-        padding: 0;
-        width: 525px
-    }
-    .horizontal-menu-4 li{
-        display: inline
-    }
-    .horizontal-menu-4 li a{
-        text-decoration: none;
-        padding: 5px 0;
-        width: 100px;
-        background: #32522b;
-        color: #eee;
-        float: left;
-        color: #8292A0;
-        font-weight: bold;
-        text-align: center;
-        border-left: 1px solid #121212;
-    }
-</style>
-{{< /rawhtml >}}
-
-### Intro
-
 Many pages that I have seen that are organized pretty well have horizontal menus, so I want to teach myself how to do them and get good at it. My alterior motive to writing this post is that I need one of these to use for a jQuery post I originally planned on doing before this but forgot the css code back at work. So here I am about to do it again but this time understand it better than I did the first time. That and repitition helps us learn right?  Well anyways once I post this you can look forward to a post about using jQuery’s `slideDown()` and `slideUp()` functions to make your menu look pretty awesome.
 
 ### Did someone order a menu?
@@ -307,3 +210,98 @@ Ahh, doesn't that look better? The final thing I am going to do is give it a rol
 ### Done!
 
 That’s it! Now you have a pretty neat looking horizontal menu to use. Of course, like I mentioned in the beginning of this post, I am now going to take this base horizontal menu and create a two tier menu with drop down effects using jQuery. Look forward to seeing that post soon!
+
+{{< rawhtml >}}
+<style>
+    /* HTML/CSS Horizontal Menu Post */
+    .horizontal-menu {
+        list-style: none;
+        margin: 20px 20px 70px !important;
+        padding: 0;
+        width: 525px
+    }
+    .horizontal-menu li {
+        display: inline;
+        position: relative;
+    }
+    .horizontal-menu li a {
+        text-decoration: none;
+        padding: 5px 0;
+        width: 100px;
+        background: #32522b;
+        color: #eee;
+        float: left;
+        color: #8292A0;
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid #121212;
+    }
+    .horizontal-menu li a:hover {
+        background: #92C088;
+        color: #252B30
+    }
+
+    .first_menu_item {
+        border: none !important;
+    }
+
+    .horizontal-menu-1 {
+        list-style: none;
+        margin: 20px;
+        padding: 0;
+        width: 525px
+    }
+
+    .horizontal-menu-2 {
+        list-style: none;
+        margin: 20px;
+        padding: 0;
+        width: 525px
+    }
+    .horizontal-menu-2 li {
+        display: inline;
+    }
+
+    .horizontal-menu-3 {
+        list-style: none;
+        margin: 20px 20px 70px !important;
+        padding: 0;
+        width: 525px
+    }
+    .horizontal-menu-3 li {
+        display: inline
+    }
+    .horizontal-menu-3 li a {
+        text-decoration: none;
+        padding: 5px 0;
+        width: 100px;
+        background: #32522b;
+        color: #eee;
+        float: left;
+        color: #8292A0;
+        font-weight: bold;
+    }
+
+    .horizontal-menu-4 {
+        list-style: none;
+        margin: 20px 20px 70px !important;
+        padding: 0;
+        width: 525px
+    }
+    .horizontal-menu-4 li{
+        display: inline
+    }
+    .horizontal-menu-4 li a{
+        text-decoration: none;
+        padding: 5px 0;
+        width: 100px;
+        background: #32522b;
+        color: #eee;
+        float: left;
+        color: #8292A0;
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid #121212;
+    }
+</style>
+{{< /rawhtml >}}
